@@ -1,0 +1,420 @@
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+./assignment-autotest/test/assignment3/assignment-test.sh: line 14: ./manual-linux.sh: No such file or directory
+[0;31mValidation Error:manual-linux script failed with 127[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+touch: cannot touch '/tmp/aesd-autograder/serial.log': No such file or directory
+Kick off qemu in the background
+Wait for app to finish
+./assignment-autotest/test/assignment3/assignment-test.sh: line 29: ./start-qemu-app.sh: No such file or directory
+tail: cannot open '/tmp/aesd-autograder/serial.log' for reading: No such file or directory
+tail: no files remaining
+[0;31mValidation Error:Running finder application on qemu failed with return code 1, see /tmp/aesd-autograder/serial.log for details[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 127:Running finder application on qemu failed with return code 1, see /tmp/aesd-autograder/serial.log for details
+Test of assignment assignment3 failed with rc=1
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+./assignment-autotest/test/assignment3/assignment-test.sh: line 14: ./manual-linux.sh: No such file or directory
+[0;31mValidation Error:manual-linux script failed with 127[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Kick off qemu in the background
+touch: Wait for app to finish
+cannot touch '/tmp/aesd-autograder/serial.log': No such file or directory
+./assignment-autotest/test/assignment3/assignment-test.sh: line 29: ./start-qemu-app.sh: No such file or directory
+tail: cannot open '/tmp/aesd-autograder/serial.log' for reading: No such file or directory
+tail: no files remaining
+[0;31mValidation Error:Running finder application on qemu failed with return code 1, see /tmp/aesd-autograder/serial.log for details[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 127:Running finder application on qemu failed with return code 1, see /tmp/aesd-autograder/serial.log for details
+Test of assignment assignment3 failed with rc=1
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+./assignment-autotest/test/assignment3/assignment-test.sh: line 14: ./manual-linux.sh: No such file or directory
+[0;31mValidation Error:manual-linux script failed with 127[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+touch: cannot touch '/tmp/aesd-autograder/serial.log': No such file or directory
+Kick off qemu in the background
+Wait for app to finish
+./assignment-autotest/test/assignment3/assignment-test.sh: line 29: ./start-qemu-app.sh: No such file or directory
+tail: cannot open '/tmp/aesd-autograder/serial.log' for reading: No such file or directory
+tail: no files remaining
+[0;31mValidation Error:Running finder application on qemu failed with return code 1, see /tmp/aesd-autograder/serial.log for details[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 127:Running finder application on qemu failed with return code 1, see /tmp/aesd-autograder/serial.log for details
+Test of assignment assignment3 failed with rc=1
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Using passed directory /tmp/aesd-autograder for output
+CLONING GIT LINUX STABLE VERSION v5.15.163 IN /tmp/aesd-autograder
+Cloning into 'linux-stable'...
+Note: switching to '7c6d66f0266faf94d04b3bfe0d7a06eae3484c50'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Updating files:  18% (13773/73683)Updating files:  19% (14000/73683)Updating files:  20% (14737/73683)Updating files:  21% (15474/73683)Updating files:  22% (16211/73683)Updating files:  23% (16948/73683)Updating files:  24% (17684/73683)Updating files:  25% (18421/73683)Updating files:  26% (19158/73683)Updating files:  27% (19895/73683)Updating files:  28% (20632/73683)Updating files:  29% (21369/73683)Updating files:  30% (22105/73683)Updating files:  31% (22842/73683)Updating files:  32% (23579/73683)Updating files:  33% (24316/73683)Updating files:  33% (24569/73683)Updating files:  34% (25053/73683)Updating files:  35% (25790/73683)Updating files:  36% (26526/73683)Updating files:  37% (27263/73683)Updating files:  38% (28000/73683)Updating files:  39% (28737/73683)Updating files:  40% (29474/73683)Updating files:  40% (29653/73683)Updating files:  41% (30211/73683)Updating files:  42% (30947/73683)Updating files:  43% (31684/73683)Updating files:  44% (32421/73683)Updating files:  44% (32881/73683)Updating files:  45% (33158/73683)Updating files:  46% (33895/73683)Updating files:  47% (34632/73683)Updating files:  48% (35368/73683)Updating files:  49% (36105/73683)Updating files:  50% (36842/73683)Updating files:  51% (37579/73683)Updating files:  52% (38316/73683)Updating files:  53% (39052/73683)Updating files:  54% (39789/73683)Updating files:  54% (39979/73683)Updating files:  55% (40526/73683)Updating files:  56% (41263/73683)Updating files:  57% (42000/73683)Updating files:  58% (42737/73683)Updating files:  59% (43473/73683)Updating files:  60% (44210/73683)Updating files:  60% (44401/73683)Updating files:  61% (44947/73683)Updating files:  62% (45684/73683)Updating files:  63% (46421/73683)Updating files:  64% (47158/73683)Updating files:  65% (47894/73683)Updating files:  66% (48631/73683)Updating files:  66% (49143/73683)Updating files:  67% (49368/73683)Updating files:  68% (50105/73683)Updating files:  69% (50842/73683)Updating files:  70% (51579/73683)Updating files:  71% (52315/73683)Updating files:  72% (53052/73683)Updating files:  73% (53789/73683)Updating files:  74% (54526/73683)Updating files:  74% (55078/73683)Updating files:  75% (55263/73683)Updating files:  76% (56000/73683)Updating files:  77% (56736/73683)Updating files:  78% (57473/73683)Updating files:  79% (58210/73683)Updating files:  80% (58947/73683)Updating files:  81% (59684/73683)Updating files:  82% (60421/73683)Updating files:  83% (61157/73683)Updating files:  84% (61894/73683)Updating files:  84% (62514/73683)Updating files:  85% (62631/73683)Updating files:  86% (63368/73683)Updating files:  87% (64105/73683)Updating files:  88% (64842/73683)Updating files:  89% (65578/73683)Updating files:  90% (66315/73683)Updating files:  91% (67052/73683)Updating files:  92% (67789/73683)Updating files:  92% (68518/73683)Updating files:  93% (68526/73683)Updating files:  94% (69263/73683)Updating files:  95% (69999/73683)Updating files:  96% (70736/73683)Updating files:  97% (71473/73683)Updating files:  98% (72210/73683)Updating files:  99% (72947/73683)Updating files: 100% (73683/73683)Updating files: 100% (73683/73683), done.
+Checking out version v5.15.163
+HEAD is now at 7c6d66f02 Linux 5.15.163
+make: aarch64-none-linux-gnu-gcc: Command not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/menu.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTCC  scripts/kconfig/util.o
+  HOSTLD  scripts/kconfig/conf
+*** Default configuration is based on 'defconfig'
+scripts/Kconfig.include:39: compiler 'aarch64-none-linux-gnu-gcc' not found
+make[1]: *** [scripts/kconfig/Makefile:87: defconfig] Error 1
+make: *** [Makefile:627: defconfig] Error 2
+[0;31mValidation Error:manual-linux script failed with 2[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+./assignment-autotest/test/assignment3/assignment-test.sh: line 29: ./start-qemu-app.sh: No such file or directory
+Kick off qemu in the background
+Wait for app to finish
+[0;31mValidation Error:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details[0m
+[0;31mValidation Error:Application timed out waiting 60 seconds for finder app execution to complete[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 2:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details:Application timed out waiting 60 seconds for finder app execution to complete
+Test of assignment assignment3 failed with rc=1
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Using passed directory /tmp/aesd-autograder for output
+Checking out version v5.15.163
+HEAD is now at 7c6d66f02 Linux 5.15.163
+make: aarch64-none-linux-gnu-gcc: Command not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/menu.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTCC  scripts/kconfig/util.o
+  HOSTLD  scripts/kconfig/conf
+*** Default configuration is based on 'defconfig'
+scripts/Kconfig.include:39: compiler 'aarch64-none-linux-gnu-gcc' not found
+make[1]: *** [scripts/kconfig/Makefile:87: defconfig] Error 1
+make: *** [Makefile:627: defconfig] Error 2
+[0;31mValidation Error:manual-linux script failed with 2[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+./assignment-autotest/test/assignment3/assignment-test.sh: line 29: ./start-qemu-app.sh: No such file or directory
+Kick off qemu in the background
+Wait for app to finish
+[0;31mValidation Error:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details[0m
+[0;31mValidation Error:Application timed out waiting 60 seconds for finder app execution to complete[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 2:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details:Application timed out waiting 60 seconds for finder app execution to complete
+Test of assignment assignment3 failed with rc=1
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Using passed directory /tmp/aesd-autograder for output
+CLONING GIT LINUX STABLE VERSION v5.15.163 IN /tmp/aesd-autograder
+Cloning into 'linux-stable'...
+Note: switching to '7c6d66f0266faf94d04b3bfe0d7a06eae3484c50'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+Updating files:  16% (12186/73683)Updating files:  17% (12527/73683)Updating files:  18% (13263/73683)Updating files:  19% (14000/73683)Updating files:  20% (14737/73683)Updating files:  21% (15474/73683)Updating files:  22% (16211/73683)Updating files:  23% (16948/73683)Updating files:  24% (17684/73683)Updating files:  25% (18421/73683)Updating files:  26% (19158/73683)Updating files:  27% (19895/73683)Updating files:  28% (20632/73683)Updating files:  29% (21369/73683)Updating files:  30% (22105/73683)Updating files:  31% (22842/73683)Updating files:  31% (23014/73683)Updating files:  32% (23579/73683)Updating files:  33% (24316/73683)Updating files:  34% (25053/73683)Updating files:  35% (25790/73683)Updating files:  36% (26526/73683)Updating files:  37% (27263/73683)Updating files:  38% (28000/73683)Updating files:  39% (28737/73683)Updating files:  39% (29339/73683)Updating files:  40% (29474/73683)Updating files:  40% (29757/73683)Updating files:  41% (30211/73683)Updating files:  42% (30947/73683)Updating files:  43% (31684/73683)Updating files:  44% (32421/73683)Updating files:  45% (33158/73683)Updating files:  46% (33895/73683)Updating files:  47% (34632/73683)Updating files:  47% (34718/73683)Updating files:  48% (35368/73683)Updating files:  49% (36105/73683)Updating files:  50% (36842/73683)Updating files:  51% (37579/73683)Updating files:  52% (38316/73683)Updating files:  53% (39052/73683)Updating files:  53% (39587/73683)Updating files:  54% (39789/73683)Updating files:  55% (40526/73683)Updating files:  56% (41263/73683)Updating files:  57% (42000/73683)Updating files:  58% (42737/73683)Updating files:  59% (43473/73683)Updating files:  59% (43857/73683)Updating files:  60% (44210/73683)Updating files:  61% (44947/73683)Updating files:  62% (45684/73683)Updating files:  63% (46421/73683)Updating files:  64% (47158/73683)Updating files:  65% (47894/73683)Updating files:  66% (48631/73683)Updating files:  66% (49283/73683)Updating files:  67% (49368/73683)Updating files:  68% (50105/73683)Updating files:  69% (50842/73683)Updating files:  70% (51579/73683)Updating files:  71% (52315/73683)Updating files:  72% (53052/73683)Updating files:  73% (53789/73683)Updating files:  74% (54526/73683)Updating files:  74% (54881/73683)Updating files:  75% (55263/73683)Updating files:  76% (56000/73683)Updating files:  77% (56736/73683)Updating files:  78% (57473/73683)Updating files:  79% (58210/73683)Updating files:  80% (58947/73683)Updating files:  81% (59684/73683)Updating files:  82% (60421/73683)Updating files:  83% (61157/73683)Updating files:  84% (61894/73683)Updating files:  84% (62320/73683)Updating files:  85% (62631/73683)Updating files:  86% (63368/73683)Updating files:  87% (64105/73683)Updating files:  88% (64842/73683)Updating files:  89% (65578/73683)Updating files:  90% (66315/73683)Updating files:  91% (67052/73683)Updating files:  92% (67789/73683)Updating files:  92% (68298/73683)Updating files:  93% (68526/73683)Updating files:  94% (69263/73683)Updating files:  95% (69999/73683)Updating files:  96% (70736/73683)Updating files:  97% (71473/73683)Updating files:  98% (72210/73683)Updating files:  99% (72947/73683)Updating files: 100% (73683/73683)Updating files: 100% (73683/73683), done.
+Checking out version v5.15.163
+HEAD is now at 7c6d66f02 Linux 5.15.163
+make: aarch64-none-linux-gnu-gcc: Command not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/menu.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTCC  scripts/kconfig/util.o
+  HOSTLD  scripts/kconfig/conf
+*** Default configuration is based on 'defconfig'
+scripts/Kconfig.include:39: compiler 'aarch64-none-linux-gnu-gcc' not found
+make[1]: *** [scripts/kconfig/Makefile:87: defconfig] Error 1
+make: *** [Makefile:627: defconfig] Error 2
+[0;31mValidation Error:manual-linux script failed with 2[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Kick off qemu in the background
+Wait for app to finish
+./assignment-autotest/test/assignment3/assignment-test.sh: line 29: ./start-qemu-app.sh: No such file or directory
+[0;31mValidation Error:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details[0m
+[0;31mValidation Error:Application timed out waiting 60 seconds for finder app execution to complete[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 2:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details:Application timed out waiting 60 seconds for finder app execution to complete
+Test of assignment assignment3 failed with rc=1
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Using passed directory /tmp/aesd-autograder for output
+Checking out version v5.15.163
+HEAD is now at 7c6d66f02 Linux 5.15.163
+make: aarch64-none-linux-gnu-gcc: Command not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/menu.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTCC  scripts/kconfig/util.o
+  HOSTLD  scripts/kconfig/conf
+*** Default configuration is based on 'defconfig'
+scripts/Kconfig.include:39: compiler 'aarch64-none-linux-gnu-gcc' not found
+make[1]: *** [scripts/kconfig/Makefile:87: defconfig] Error 1
+make: *** [Makefile:627: defconfig] Error 2
+[0;31mValidation Error:manual-linux script failed with 2[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Kick off qemu in the background
+Wait for app to finish
+Missing kernel image at /tmp/aesd-autograder/Image
+[0;31mValidation Error:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details[0m
+[0;31mValidation Error:Application timed out waiting 60 seconds for finder app execution to complete[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 2:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details:Application timed out waiting 60 seconds for finder app execution to complete
+Test of assignment assignment3 failed with rc=1
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Using passed directory /tmp/aesd-autograder for output
+Checking out version v5.15.163
+HEAD is now at 7c6d66f02 Linux 5.15.163
+make: aarch64-none-linux-gnu-gcc: Command not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/menu.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTCC  scripts/kconfig/util.o
+  HOSTLD  scripts/kconfig/conf
+*** Default configuration is based on 'defconfig'
+scripts/Kconfig.include:39: compiler 'aarch64-none-linux-gnu-gcc' not found
+make[1]: *** [scripts/kconfig/Makefile:87: defconfig] Error 1
+make: *** [Makefile:627: defconfig] Error 2
+[0;31mValidation Error:manual-linux script failed with 2[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Kick off qemu in the background
+Wait for app to finish
+Missing kernel image at /tmp/aesd-autograder/Image
+[0;31mValidation Error:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details[0m
+[0;31mValidation Error:Application timed out waiting 60 seconds for finder app execution to complete[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 2:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details:Application timed out waiting 60 seconds for finder app execution to complete
+Test of assignment assignment3 failed with rc=1
+Running test with user vmarvlx
+-- Generating ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c
+-- Building executable including ;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3/Test_systemcalls_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;test/assignment3/Test_systemcalls.c and ../examples/autotest-validate/autotest-validate.c;../examples/systemcalls/systemcalls.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vmarvlx/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/build
+[ 50%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[100%] Linking C static library libunity.a
+[100%] Built target unity
+Executing assignment test script
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+starting test with SKIP_BUILD  and DO_VALIDATE 
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Using passed directory /tmp/aesd-autograder for output
+Checking out version v5.15.163
+HEAD is now at 7c6d66f02 Linux 5.15.163
+make: aarch64-none-linux-gnu-gcc: Command not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+/bin/sh: 1: aarch64-none-linux-gnu-gcc: not found
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/menu.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTCC  scripts/kconfig/util.o
+  HOSTLD  scripts/kconfig/conf
+*** Default configuration is based on 'defconfig'
+scripts/Kconfig.include:39: compiler 'aarch64-none-linux-gnu-gcc' not found
+make[1]: *** [scripts/kconfig/Makefile:87: defconfig] Error 1
+make: *** [Makefile:627: defconfig] Error 2
+[0;31mValidation Error:manual-linux script failed with 2[0m
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/finder-app ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Kick off qemu in the background
+Wait for app to finish
+Missing kernel image at /tmp/aesd-autograder/Image
+[0;31mValidation Error:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details[0m
+[0;31mValidation Error:Application timed out waiting 60 seconds for finder app execution to complete[0m
+qemu-system-aarch64: no process found
+~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747/assignment-autotest/test/assignment3 ~/coursera_linux_programming/Assignment_3/assignments-3-and-later-arvind747
+Validation failed with error list :manual-linux script failed with 2:Running finder application on qemu failed with return code 124, see /tmp/aesd-autograder/serial.log for details:Application timed out waiting 60 seconds for finder app execution to complete
+Test of assignment assignment3 failed with rc=1
