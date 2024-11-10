@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 
 sum=0
+file_count=0
+
 if [ "$#" -ne 2 ]; then
    echo "incorrect arguments"
    exit 1
@@ -9,7 +11,7 @@ if [ "$#" -ne 2 ]; then
 cmd='grep -c -r -h '$2' './$1' '
 
 result=$($cmd)
-
+#echo "cmd:" $cmd
 for i in $result
 do
    sum=$(($sum + $i))
@@ -17,15 +19,15 @@ done
 
 #echo "line count: "$sum
 
-for item in ./$1/*
+for item in $1*
 do
 if [ -f "$item" ]
     then
-         file_count=$[$file_count+1]
+         file_count=$(($file_count+1))
 fi
 done
 
-echo "file count: " $file_count
+#echo "file count: " $file_count
 
 echo "The number of files are $file_count and the number of matching lines are $sum"
 

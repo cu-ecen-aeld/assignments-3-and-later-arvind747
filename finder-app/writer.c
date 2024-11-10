@@ -15,7 +15,7 @@ int main(int argc, char **argv)
        return 1;
     }
     openlog("writer", LOG_PERROR|LOG_PID, LOG_USER|LOG_DEBUG);
-    fd = open(argv[1], O_WRONLY);
+    fd = open(argv[1], O_CREAT|O_WRONLY);
     if(fd == -1)
     {
         syslog(LOG_ERR, "file does not exist \n");
