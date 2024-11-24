@@ -7,7 +7,11 @@ set -u
 
 NUMFILES=10
 WRITESTR=AELD_IS_FUN
+<<<<<<< HEAD
 WRITEDIR=aeld-data/
+=======
+WRITEDIR=/tmp/aeld-data
+>>>>>>> assignments-base/assignment5
 username=$(cat conf/username.txt)
 
 if [ $# -lt 3 ]
@@ -22,7 +26,11 @@ then
 else
 	NUMFILES=$1
 	WRITESTR=$2
+<<<<<<< HEAD
 	WRITEDIR=aeld-data/$3
+=======
+	WRITEDIR=/tmp/aeld-data/$3
+>>>>>>> assignments-base/assignment5
 fi
 
 MATCHSTR="The number of files are ${NUMFILES} and the number of matching lines are ${NUMFILES}"
@@ -32,7 +40,11 @@ echo "Writing ${NUMFILES} files containing string ${WRITESTR} to ${WRITEDIR}"
 rm -rf "${WRITEDIR}"
 
 # create $WRITEDIR if not assignment1
+<<<<<<< HEAD
 assignment=`cat conf/assignment.txt`
+=======
+assignment=`cat ../conf/assignment.txt`
+>>>>>>> assignments-base/assignment5
 
 if [ $assignment != 'assignment1' ]
 then
@@ -54,13 +66,21 @@ fi
 
 for i in $( seq 1 $NUMFILES)
 do
+<<<<<<< HEAD
 	./writer "$WRITEDIR/${username}$i.txt" "$WRITESTR"
+=======
+	./writer.sh "$WRITEDIR/${username}$i.txt" "$WRITESTR"
+>>>>>>> assignments-base/assignment5
 done
 
 OUTPUTSTRING=$(./finder.sh "$WRITEDIR" "$WRITESTR")
 
 # remove temporary directories
+<<<<<<< HEAD
 rm -rf aeld-data/
+=======
+rm -rf /tmp/aeld-data
+>>>>>>> assignments-base/assignment5
 
 set +e
 echo ${OUTPUTSTRING} | grep "${MATCHSTR}"

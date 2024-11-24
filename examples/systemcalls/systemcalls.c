@@ -16,6 +16,7 @@ bool do_system(const char *cmd)
  *   and return a boolean true if the system() call completed with success
  *   or false() if it returned a failure
 */
+<<<<<<< HEAD
     int ret;
 
     ret = system(cmd);
@@ -39,6 +40,10 @@ bool do_system(const char *cmd)
         printf("Command execution failed or returned \n");
         return false;
     }
+=======
+
+    return true;
+>>>>>>> assignments-base/assignment5
 }
 
 /**
@@ -61,8 +66,11 @@ bool do_exec(int count, ...)
     va_start(args, count);
     char * command[count+1];
     int i;
+<<<<<<< HEAD
     int status;
     pid_t pid;
+=======
+>>>>>>> assignments-base/assignment5
     for(i=0; i<count; i++)
     {
         command[i] = va_arg(args, char *);
@@ -81,6 +89,7 @@ bool do_exec(int count, ...)
  *   as second argument to the execv() command.
  *
 */
+<<<<<<< HEAD
    //printf("command command[0] = %s *(command+1)= %s",command[0], *(command+1));
    va_end(args);
 
@@ -121,6 +130,12 @@ bool do_exec(int count, ...)
 	
         return (status == EXIT_SUCCESS);
     }
+=======
+
+    va_end(args);
+
+    return true;
+>>>>>>> assignments-base/assignment5
 }
 
 /**
@@ -134,6 +149,7 @@ bool do_exec_redirect(const char *outputfile, int count, ...)
     va_start(args, count);
     char * command[count+1];
     int i;
+<<<<<<< HEAD
     int kidpid;
     int status;
 
@@ -145,6 +161,8 @@ bool do_exec_redirect(const char *outputfile, int count, ...)
         abort(); 
     }
 
+=======
+>>>>>>> assignments-base/assignment5
     for(i=0; i<count; i++)
     {
         command[i] = va_arg(args, char *);
@@ -162,6 +180,7 @@ bool do_exec_redirect(const char *outputfile, int count, ...)
  *   The rest of the behaviour is same as do_exec()
  *
 */
+<<<<<<< HEAD
    switch (kidpid = fork()) 
    {
       case -1: perror("fork"); abort();
@@ -199,3 +218,10 @@ bool do_exec_redirect(const char *outputfile, int count, ...)
 
 }
 
+=======
+
+    va_end(args);
+
+    return true;
+}
+>>>>>>> assignments-base/assignment5
