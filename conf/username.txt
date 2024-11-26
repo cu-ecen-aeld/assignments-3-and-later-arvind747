@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 arvind747
-=======
-your-github-username-here-in-conf-file
->>>>>>> assignments-base/assignment5
