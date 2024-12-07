@@ -1,10 +1,6 @@
 # !/bin/bash
 # Script to open qemu terminal.
-<<<<<<< HEAD
 # Author: Arvind Upadhyay
-=======
-# Author: Siddhant Jajoo.
->>>>>>> assignments-base/assignment5
 
 set -e
 
@@ -39,8 +35,4 @@ qemu-system-aarch64 \
         -kernel ${KERNEL_IMAGE} \
         -chardev stdio,id=char0,mux=on,logfile=${OUTDIR}/serial.log,signal=off \
         -serial chardev:char0 -mon chardev=char0 \
-<<<<<<< HEAD
         -append "rdinit=/home/autorun-qemu.sh console=ttyAMA0" -initrd ${INITRD_IMAGE}
-=======
-        -append "rdinit=/home/autorun-qemu.sh console=ttyAMA0" -initrd ${INITRD_IMAGE}
->>>>>>> assignments-base/assignment5

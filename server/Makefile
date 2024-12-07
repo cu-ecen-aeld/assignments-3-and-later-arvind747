@@ -1,13 +1,13 @@
-# Makefile for the aesdsocket server
-CC = gcc
-CFLAGS = -Wall -Werror -g
+CC=$(CROSS_COMPILE)gcc
+CFLAGS=-g -Wall
 
-TARGET = aesdsocket
+.PHONY: clean aesdsocket
 
-all: $(TARGET)
+all: aesdsocket
+default: aesdsocket
 
-$(TARGET): aesdsocket.c
-	$(CC) $(CFLAGS) aesdsocket.c -o $(TARGET)
+aesdsocket: aesdsocket.c
+	$(CC) $(CFLAGS) $^ -o $@
 
 clean:
-	rm -f $(TARGET)
+	rm -f aesdsocket
