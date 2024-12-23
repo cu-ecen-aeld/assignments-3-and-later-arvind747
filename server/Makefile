@@ -1,16 +1,22 @@
-ARCH=arm64
-CROSS_COMPILE=aarch64-none-linux-gnu-
+CC ?= $(CROSS_COMPILE)gcc
+CFLAGS ?= -Wall -Werror -g -pthread
+LDFLAGS ?= -lpthread -lrt
+TARGET ?= aesdsocket
 
-CC=$(CROSS_COMPILE)gcc
-CFLAGS=-g -Wall
+ROOT_DIR=.
 
-.PHONY: clean aesdsocket
+SRC_FILES=\
+  $(ROOT_DIR)/aesdsocket.c 
 
-all: aesdsocket
-default: aesdsocket
+INC_DIRS=-I$(ROOT_DIR)/
 
-aesdsocket: aesdsocket.c
-	$(CC) $(CFLAGS) $^ -o $@
+all: aesdsocket_all
+
+default: aesdsocket_default
+
+aesdsocket_all:
+	$(CC) $(CFLAGS) $(INC_DIRS) $(SRC_FILES) -o $(TARGET) -v
 
 clean:
-	rm -f aesdsocket
+	rm -f $(TARGET) *.o
+
